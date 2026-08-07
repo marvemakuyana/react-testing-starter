@@ -12,7 +12,7 @@ function CategoryList() {
     dispatch(fetchCategories());
   }, [dispatch]);
 
-  if (error) return <div>Error: {error}</div>;
+  if (error) return <div>Error {error}</div>;
 
   return (
     <div>
