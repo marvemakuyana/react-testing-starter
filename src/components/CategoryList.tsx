@@ -18,7 +18,7 @@ function CategoryList() {
     <div>
       <h2>Category List</h2>
       {loading ? (
-        <div>Loading</div>
+        <div>Loading...</div>
       ) : (
         <ul>
           {categories!.map((category) => (
